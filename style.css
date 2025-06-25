@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding:0;     
+}
+
+.navbar{
+
+     background: black;
+     padding: 1rem;
+     position: fixed;
+     height:50px;
+     width: 100%;
+}
+.brand{
+    height:50%;
+    width:25%;
+    display: flex;
+    float: left;
+    padding-left: 60px;
+    margin-top: -40px;
+    
+}
+.brand-logo{
+    height:130px;
+    width:130px;
+    margin-bottom: 10px;
+}
+.navbar-list{
+    float: left;
+    color:white;
+    text-align: center;
+    font-size: 13px;
+    font-family:  'Montserrat', sans-serif;
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-list ul{
+    overflow: auto;
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 20px;
+    display: inline;
+    justify-content: space-around;
+}
+    
+.navbar ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 0.5 rem 1rem;
+    display: block;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar ul li :hover{
+    cursor: pointer;
+    color: #939393;
+}
+
+.social-icons ul li{
+    list-style: none;
+    float: left;
+    padding: 20px 10px;
+    display: inline;
+    justify-content: space-around;}
+
+.social-icons{
+    float:right;
+    padding-right:70px;
+}
+.icone{
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    
+}
+
+.first-screen{
+height:700px ;
+width: 100%;
+background-image: url(bg.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-color: #9c4041;
+}
+
+.second-screen{
+ 
+height: 700px;
+width: 100%;
+background-color: #9c4041;
+margin: 0%;
+
+}
+
+.left{
+    width:55%;
+    height: 100%;
+    float:left;
+
+}
+.image {
+    
+    margin-left: 110px;
+    
+  } 
+.right{
+    width:45%;
+    float:left;
+    color: #ffff;
+    text-align: left;
+    padding-top: 120px;
+    display: block;
+    
+}
+    
+.text{
+    font-family :'poppins', sans-serif;
+    font-size :15px;
+    letter-spacing: 0.7px;
+    padding-right: 140px;
+    line-height: 1.6;
+    font-weight: 400;
+    
+}
+.bold{
+    margin: 0px;
+    font-family :'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 55px;
+    padding-right: 130px;
+    line-height: 1.2;
+    
+}
+       
+button{
+    color: #bc9e33;
+    background-color: transparent;
+    border: 2px solid #bc9e33;
+    height: 45px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: #bc9e33;
+    color: #212529;
+
+}
+.third-screen{
+    margin: 0px;
+    height: 700px;
+    width: 100%;
+    background-color: #1c1c1c;
+    
+}
+.third-up{
+    
+    
+    height:30%;
+    width:100%;
+    float: left;
+
+}
+.h4{
+    padding-top: 20px;
+    color:#7c682a;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.up-left{
+    padding-left: 120px;
+    height:100%;
+    width:50%;
+    color:#d1bd74;
+    line-height: 1.9;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    border-bottom: 1px solid #635d5d ;
+}
+
+.up-right{
+    
+    height: 76%;
+    width:30%;
+    float: left;
+    padding-left: 140px;
+    padding-top: 50px;
+    border-bottom: 1px solid #635d5d ;
+    
+    
+}
+hr{
+    width:80%;
+    margin-left: 5;
+    
+}
+
+.third-down{
+
+    height:70%;
+    width:100%;
+    float: left;
+    
+}
+
+.down1{
+    padding-left:120px;
+    height:100%;
+    width:30%;
+    float:left;
+    font-size: 15px;
+    line-height: 30px;
+    color:#d1bd74;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    padding-top: 100px;
+    height:100px;
+    width:100px;
+    
+}
+.down2{
+    height:100%;
+    width:35%;
+    float:left;
+    font-size: 16px;
+    line-height: 30px;
+    color:#d1bd74;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.d2:hover{
+    cursor:pointer;
+}
+hr{
+    width:85%;
+    color: #635d5d;
+    height: .5px;
+    border-style: inset;
+    
+}
+h3{
+    padding-top: 40px;
+    color:#d1bd74;
+}
+.down3{
+    
+    height:100%;
+    width:25%;
+    float:left;
+    font-size: 16px;
+    line-height: 30px;
+    color:#d1bd74;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.d3:hover{
+    cursor: pointer;
+    color: #bc9e33;
+}
